@@ -219,6 +219,7 @@ public class SlideTouchView extends RelativeLayout {
                         MarginLayoutParams para = (MarginLayoutParams) v.getLayoutParams();
                         mSlidedDistance = 0;
                         tv_hint.setAlpha(0.0f);
+                        tvTips.setAlpha(0.0f);
                         tv_hints.setAlpha(1.0f);
                         mIsUnLocked = true;
 
