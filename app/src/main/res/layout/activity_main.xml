@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    xmlns:chuck="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.slidetouchviewdemo.SlideTouchView
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        chuck:slideImageViewResId="@drawable/icon_slide"
+        chuck:slideImageViewResIdAfter="@drawable/icon_slide"
+        chuck:slideImageViewWidth="60dp"
+        chuck:slideThreshold="0.5"
+        chuck:textColorResId="@color/zi"
+        chuck:textHint="@string/hint"
+        chuck:textSize="6" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/slide"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:id="@+id/button"
+        android:layout_marginTop="15dp"/>
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_plus"
+        android:layout_marginTop="55dp"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="+1"
+        android:textColor="#595EC3" />
+    <TextView
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="30dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv_text"
+        android:text="slide distance:" />
+
+</RelativeLayout>

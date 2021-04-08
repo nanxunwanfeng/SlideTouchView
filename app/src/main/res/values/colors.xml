@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="home_txt_gray">#F2F4F5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whiteLight">#80FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="zi">#5255B4</color>
+
+    <color name="blackLight">#1A1A1A</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparentDark">#00000000</color>
+    <!-- 字体颜色  -->
+    <color name="textVip">#BC7D11</color>
+    <color name="textPrimary">#333333</color>
+    <color name="textRegular">#666666</color>
+    <color name="textSecondary">#999999</color>
+    <color name="textDisabled">#E6E6E6</color>
+    <color name="textInfo">#BBBBBB</color>
+    <color name="textPrice">#FF3F25</color>
+    <color name="textBlue">#597cff</color>
+    <color name="textPlaceholder">#4dFFFFFF</color>
+    <color name="textTitleLeft">#FF3F25</color>
+    <!--   间隔view颜色-->
+    <color name="lineColor">#fff6f6f6</color>
+    <!-- 背景色   -->
+    <color name="bgLight">#F6F6F6</color>
+    <color name="bgLighten">#F9F9F9</color>
+    <color name="bgLightest">#FBFBFB</color>
+    <color name="bgGray">#777777</color>
+    <color name="bgBadge">#FF3F25</color>
+    <color name="bgMasterFocus">#ff333441</color>
+    <!--邀请有礼红色-->
+    <color name="bgShare">#FF644F</color>
+    <!--签到燃豆颜色-->
+    <color name="bgUnSign">#FFF8E5</color>
+    <!--    收藏-->
+    <color name="bgLike">#FF8139</color>
+    <!--  边框色  -->
+    <color name="border">#EEEEEE</color>
+
+    <color name="logoBg">#00CD92</color>
+
+    <!--  蒙层  -->
+    <!--  60%  -->
+    <color name="maskPrimary">#99000000</color>
+    <!--  38%  -->
+    <color name="maskRegular">#60000000</color>
+    <!--  20%  -->
+    <color name="maskSecondary">#33000000</color>
+    <!--  10%  -->
+    <color name="maskLighten">#1a000000</color>
+
+    <color name="maskWhite">#E6ffffff</color>
+    <!--  60%  -->
+    <color name="maskWhitePrimary">#99ffffff</color>
+    <!--  38%  -->
+    <color name="maskWhiteRegular">#60ffffff</color>
+    <!--  20%  -->
+    <color name="maskWhiteSecondary">#33ffffff</color>
+    <!--  10%  -->
+    <color name="maskWhiteLighten">#1affffff</color>
+
+    <color name="yellow">#FFAF17</color>
+    <color name="gray">#F2F2F2</color>
+    <color name="text">#999999</color>
+
+
+
+
+    <!--虚线-->
+    <!--    <color name="dottedLine">#EEEEEE</color>-->
+    <!--        <color name="textdotted">#BBBBBB</color>-->
+    <!--    <color name="background777777">#777777</color>-->
+    <!--文字虚色-->
+    <!--    <color name="textShopVirtualColor">#E6E6E6</color>-->
+
+    <!--种草文字-->
+    <!--    <color name="collectionText">#FF8139</color>-->
+    <!--邀请有礼红色-->
+    <!--    <color name="inviteRed">#FF644F</color>-->
+
+    <!--红色-->
+    <!--    <color name="goodReb">#FF3F25</color>-->
+    <!--橘色-->
+    <!--    <color name="textOrange">#FA6400</color>-->
+    <!--文字虚色-->
+    <!--    <color name="textVirtualColor">#999999</color>-->
+    <!--背景-->
+    <!--    <color name="textBackground">#00ffffff</color>-->
+    <!--文字黑色-->
+    <!--    <color name="textBlack">#2C2B32</color>-->
+    <!--文字深黑色-->
+    <!--    <color name="textDeepBlack">#2B2A33</color>-->
+
+    <!--文字加粗黑色-->
+    <!--    <color name="textBoldBlack">#333333</color>-->
+    <!--文字黑色-->
+    <!--    <color name="textPureBlack">#000000</color>-->
+
+    <!--    <color name="text666666">#666666</color>-->
+    <!--    <color name="trans">#00ffffff</color>-->
+    <!--    <color name="dottedBackground">#F6F6F6</color>-->
+    <!--界面背景-->
+    <!--界面背景-->
+    <!--    <color name="dottedGrayBackground">#fbfbfb</color>-->
+    <!--    <color name="line_DDDDDD">#F6F6F6</color>-->
+
+</resources>
