@@ -21,7 +21,7 @@ import com.nineoldandroids.view.ViewHelper;
 
 
 public class SlideTouchView extends RelativeLayout {
-    private static final String TAG = "CustomSlideToUnlockView";
+    private static final String TAG = "SlideTouchView";
     private static final long DEAFULT_DURATIN_LONG = 200;//左弹回,动画时长
     private static final long DEAFULT_DURATIN_SHORT = 200;//右弹,动画时长
     private static int DISTANCE_LIMIT = 600;//滑动阈值
@@ -49,7 +49,7 @@ public class SlideTouchView extends RelativeLayout {
     public SlideTouchView(Context mContext, AttributeSet attrs) {
         super(mContext, attrs);
         this.mContext = mContext;
-        TypedArray mTypedArray = mContext.obtainStyledAttributes(attrs, R.styleable.SlideToUnlockView);
+        TypedArray mTypedArray = mContext.obtainStyledAttributes(attrs, R.styleable.SlideView);
         //获取自定义属性
         init(mTypedArray);
         initView();
@@ -58,21 +58,21 @@ public class SlideTouchView extends RelativeLayout {
     public SlideTouchView(Context mContext, AttributeSet attrs, int defStyleAttr) {
         super(mContext, attrs, defStyleAttr);
         this.mContext = mContext;
-        TypedArray mTypedArray = mContext.obtainStyledAttributes(attrs, R.styleable.SlideToUnlockView);
+        TypedArray mTypedArray = mContext.obtainStyledAttributes(attrs, R.styleable.SlideView);
         init(mTypedArray);
         initView();
     }
 
     //获取自定义属性
     private void init(TypedArray mTypedArray) {
-        slideImageViewWidth = (int) mTypedArray.getDimension(R.styleable.SlideToUnlockView_slideImageViewWidth, DensityUtil.dp2px(getContext(), 50));
-        slideImageViewResId = mTypedArray.getResourceId(R.styleable.SlideToUnlockView_slideImageViewResId, -1);
-        slideImageViewResIdAfter = mTypedArray.getResourceId(R.styleable.SlideToUnlockView_slideImageViewResIdAfter, -1);
-        viewBackgroundResId = mTypedArray.getResourceId(R.styleable.SlideToUnlockView_viewBackgroundResId, -1);
-        textHint = mTypedArray.getString(R.styleable.SlideToUnlockView_textHint);
-        textSize = mTypedArray.getInteger(R.styleable.SlideToUnlockView_textSize, 7);
-        textColorResId = mTypedArray.getColor(R.styleable.SlideToUnlockView_textColorResId, getResources().getColor(android.R.color.white));
-        THRESHOLD = mTypedArray.getFloat(R.styleable.SlideToUnlockView_slideThreshold, 0.5f);
+        slideImageViewWidth = (int) mTypedArray.getDimension(R.styleable.SlideView_slideImageViewWidth, DensityUtil.dp2px(getContext(), 50));
+        slideImageViewResId = mTypedArray.getResourceId(R.styleable.SlideView_slideImageViewResId, -1);
+        slideImageViewResIdAfter = mTypedArray.getResourceId(R.styleable.SlideView_slideImageViewResIdAfter, -1);
+        viewBackgroundResId = mTypedArray.getResourceId(R.styleable.SlideView_viewBackgroundResId, -1);
+        textHint = mTypedArray.getString(R.styleable.SlideView_textHint);
+        textSize = mTypedArray.getInteger(R.styleable.SlideView_textSize, 7);
+        textColorResId = mTypedArray.getColor(R.styleable.SlideView_textColorResId, getResources().getColor(android.R.color.white));
+        THRESHOLD = mTypedArray.getFloat(R.styleable.SlideView_slideThreshold, 0.5f);
         mTypedArray.recycle();
     }
 

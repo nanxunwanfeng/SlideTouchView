@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- 滑动解锁控件 xml配置属性 -->
-    <declare-styleable name="SlideToUnlockView">
+    <declare-styleable name="SlideView">
         <attr name="slideImageViewWidth" format="dimension"/><!-- 滑块宽度 -->
         <attr name="slideImageViewResId" format="reference"/><!-- 滑块资源id -->
         <attr name="slideImageViewResIdAfter" format="reference"/><!-- 滑动到右边时,滑块资源id -->

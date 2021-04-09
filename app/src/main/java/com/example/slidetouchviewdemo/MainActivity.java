@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         button=findViewById(R.id.button);
         tv_text= (TextView) findViewById(R.id.tv_text);
         tv_plus = (TextView) findViewById(R.id.tv_plus);
-        //  initFragment();
         AnimationSet animationSet = new AnimationSet(false);
 
         TranslateAnimation translateAnimation = new TranslateAnimation(0,0,0,-500);
